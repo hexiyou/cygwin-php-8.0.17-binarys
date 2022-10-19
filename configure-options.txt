@@ -1,0 +1,12 @@
+./configure --disable-all --with-openssl --enable-openssl --with-curl --with-iconv --with-bz2 --enable-bcmath --enable-pcntl --enable-filter --enable-session --enable-tokenizer --enable-mbstring --enable-ctype --with-zlib --with-zip --enable-posix --enable-sockets --enable-pdo --with-sqlite3 --enable-phar --enable-mysqlnd --with-mysqli --enable-intl --enable-fileinfo --with-pdo_mysql --with-pdo-sqlite --enable-soap --with-xsl --with-gmp --enable-exif --with-sodium --enable-xml --enable-simplexml --enable-xmlreader --enable-xmlwriter --enable-dom --with-libxml --enable-gd --with-jpeg  --with-freetype --enable-swoole --enable-sockets --enable-mysqlnd --enable-http2 --enable-swoole-json --enable-swoole-curl --enable-cares --enable-redis --with-imagick --with-yaml
+
+========
+From：
+https://github.com/php/php-src/issues/8142
+
+========
+最后更新：经过测试，最上边的configure命令编译失败，使用默认不携带参数的./configure成功编译，部分拓展无法编译成功的问题待后续解决
+
+========
+Cygwin php 官方repo：
+https://www.cygwin.com/git-cygwin-packages/?p=git/cygwin-packages/php.git
